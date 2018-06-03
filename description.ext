@@ -1,4 +1,4 @@
-author="Anatidae";
+author="Shishi";
 OnLoadName = "Theorie&pratique";
 OnLoadMission = "Un bon gamemaster est un gamemaster mort.";
 loadScreen = "images\cpc256.paa";
