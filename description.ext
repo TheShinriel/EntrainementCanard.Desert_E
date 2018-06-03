@@ -1,0 +1,19 @@
+author="Anatidae";
+OnLoadName = "Theorie&pratique";
+OnLoadMission = "Un bon gamemaster est un gamemaster mort.";
+loadScreen = "images\cpc256.paa";
+enableDebugConsole = 2;
+class Header
+{
+    gameType = Sandbox;
+    minPlayers = 1;
+    maxPlayers = 32;
+};
+
+
+respawn = 3;
+respawnDelay = 4;
+respawnDialog = 0;
+respawnOnStart = 1;
+disabledAI = 1;
+joinUnassigned = 1;
