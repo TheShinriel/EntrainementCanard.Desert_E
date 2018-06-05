@@ -1,3 +1,4 @@
+[] call GDC_fnc_lucyInit;
 
 execVM "briefing.sqf";
 {_x addCuratorEditableObjects [[cpc_shop],false]} forEach allcurators;

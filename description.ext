@@ -17,3 +17,17 @@ respawnDialog = 0;
 respawnOnStart = 1;
 disabledAI = 1;
 joinUnassigned = 1;
+
+
+
+class CfgFunctions
+{
+	class GDC2
+	{
+		class lucySpawn
+		{
+			file = "functions\gdc_lucy\spawn";
+			class lucySpawnStaticInf {};
+		};
+	};
+};
