@@ -1,6 +1,5 @@
 
-
-hint "Batiment 2 en cours de préparation";
+"Batiment 2 en cours de préparation" remoteExec ["hint"]; 
 
 // Delete units in the building
 {
@@ -28,5 +27,4 @@ hint "Batiment 2 en cours de préparation";
 ["O_Soldier_VR_F", [[1797.68,1192.4,50.7356,353.344]], EAST, "UP", ["NOTHING"], -1, "this disableAI ""MOVE""; this disableAI ""AUTOTARGET""; this disableAI ""AUTOCOMBAT"";"] call GDC_fnc_lucySpawnStaticInf;
 ["O_Soldier_VR_F", [[1802.77,1197.35,50.7356,96.7799]], EAST, "UP", ["NOTHING"], -1, "this disableAI ""MOVE""; this disableAI ""AUTOTARGET""; this disableAI ""AUTOCOMBAT"";"] call GDC_fnc_lucySpawnStaticInf;
 
-
-hint "Batiment 2 prêt";
+"Batiment 2 prêt" remoteExec ["hint"]; 
