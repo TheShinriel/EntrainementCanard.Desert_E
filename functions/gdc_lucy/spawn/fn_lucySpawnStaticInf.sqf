@@ -35,7 +35,6 @@ private["_unit_spawn", "_unit_group", "_i"];
 waitUntil{sleep 1.0;(not LUCY_SCAN_IN_PROGRESS) && (not LUCY_SPAWN_INF_IN_PROGRESS)};
 LUCY_SPAWN_INF_IN_PROGRESS = True;
 
-hint "43";
 for [{_i=0}, {_i < count _unit_pos_dir}, {_i = _i + 1}] do {
     _unit_group = createGroup _unit_side;
     _unit_type createUnit[getMarkerPos LUCY_IA_MARKER_SPAWN_STATIC_UNIT_NAME, _unit_group, _unit_init];
