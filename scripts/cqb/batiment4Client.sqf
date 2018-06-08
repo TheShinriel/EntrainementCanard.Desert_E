@@ -1,3 +1,3 @@
 
-"scripts\cqb\batiment4Server.sqf" remoteExec ["execVM"];
+{["scripts\cqb\batiment4.sqf"] call GDC_fnc_lucyExecVMHC;} remoteExec ["call"];
  
